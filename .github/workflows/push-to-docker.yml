@@ -20,7 +20,7 @@ jobs:
           repository_name: "lukamit/red"
           user_name: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          image_version: "v1.0"
+          image_version: "latest"
           docker_file: "."
 
       - name: Get pre step result output image_pull_url
